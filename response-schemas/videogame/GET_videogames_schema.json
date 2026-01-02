@@ -1,0 +1,35 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "name": {
+                "type": "string"
+            },
+            "releaseDate": {
+                "type": "string"
+            },
+            "reviewScore": {
+                "type": "integer",
+                "format": "date-time"
+            },
+            "category": {
+                "type": "string"
+            },
+            "rating": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "id",
+            "name",
+            "releaseDate",
+            "reviewScore",
+            "category",
+            "rating"
+        ]
+    }
+}
