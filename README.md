@@ -61,7 +61,7 @@ NODE_ENV=local ENCRYPTION_KEY=MySuperSecretKey1234567890!@# npx playwright test
 ## Running Specific Tests
 Use Playwright's `--grep` option:
 ```sh
-npx playwright test --grep @VIDEOGAME_API_02
+npx playwright test --grep @smoke
 ```
 
 ## Reporting
